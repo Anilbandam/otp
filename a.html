@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Generation & Verification</title>
+    <link rel="stylesheet" href="b.css" />
+</head>
+<body>
+    <div class="otp-container">
+        <h1>OTP Verification</h1>
+        
+        <!-- OTP Input Fields -->
+        <div class="otp-inputs">
+            <input type="text" maxlength="1" class="otp-field" />
+            <input type="text" maxlength="1" class="otp-field" />
+            <input type="text" maxlength="1" class="otp-field" />
+            <input type="text" maxlength="1" class="otp-field" />
+        </div>
+
+        <!-- Resend OTP Link -->
+        <p id="otp-not-received">Didn’t receive OTP? <a href="#" id="resend-otp">Resend</a></p>
+
+        <!-- Verification Button -->
+        <button id="verify-btn" disabled>Verify OTP</button>
+    </div>
+
+    <script src="c.js"></script>
+</body>
+</html>
